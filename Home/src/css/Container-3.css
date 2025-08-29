@@ -1,0 +1,388 @@
+.Items-4 .container{
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.Items-4 .container .text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Items-4 .container .text h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #025add;
+}
+
+.Items-4 .container .text p{
+   font-size: 18px;
+   color: #b8641c;
+}
+
+.Items-4 .container .cards-4 {
+     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5:hover{
+    transform: scale(1.09);
+
+}
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 100%;
+    width: 385px;
+    height: 687px;
+    padding: 45px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5 .block ul{
+    padding: 20px;
+    line-height: 2.4;
+}
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h4{
+    font-size: 60px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+
+.Items-4 .container .cards-4 .card-4 .cardItems-5 a{
+    padding: 15px 15px;
+    background-color: #025add;
+    display: block;
+    border-radius: 40px;
+    height: 55px;
+    width: 145px;
+    margin: 10px auto;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+@media (max-width: 1024px) {
+  .Items-4 .container .text h2 {
+    font-size: 28px;
+  }
+
+  .Items-4 .container .text p {
+    font-size: 16px;
+  }
+
+  .Items-4 .container .cards-4 {
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 30px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h2 {
+    font-size: 24px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h4 {
+    font-size: 48px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 a {
+    font-size: 16px;
+    width: 130px;
+    height: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Items-4 .container {
+    padding: 0 10px;
+  }
+
+  .Items-4 .container .text h2 {
+    font-size: 24px;
+  }
+
+  .Items-4 .container .text p {
+    font-size: 14px;
+  }
+
+  .Items-4 .container .cards-4 {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 0;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    padding: 25px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block ul {
+    padding: 10px;
+    line-height: 2;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h2 {
+    font-size: 20px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h4 {
+    font-size: 40px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 a {
+    font-size: 15px;
+    width: 120px;
+    height: 45px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .Items-4 .container .text h2 {
+    font-size: 20px;
+  }
+
+  .Items-4 .container .text p {
+    font-size: 13px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 .block .txt h4 {
+    font-size: 32px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 {
+    padding: 20px;
+  }
+
+  .Items-4 .container .cards-4 .card-4 .cardItems-5 a {
+    font-size: 14px;
+    width: 110px;
+    height: 42px;
+  }
+}
+
+
+/*==================================================================================*/
+.Items-5 .container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 20px auto;
+}
+
+.Items-5 .container .text {
+    text-align: center;
+    padding: 30px;
+}
+
+.Items-5 .container .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #025add;
+}
+
+.Items-5 .container .text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #b8641c;
+}
+
+.Items-5 .container .cards-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 {
+    max-width: 375px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative; 
+}
+
+.Items-5 .container .cards-5 .cardItems-6 .img-3 {
+    width: 100px;
+    height: 100px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 .img-3 img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.Items-5 .container .cards-5 .cardItems-6 h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #025add;
+    margin: 10px 0 5px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 .start {
+    color: #ffc008;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 p {
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Items-5 .container .cards-5 .cardItems-6 p i {
+    font-size: 24px;
+    color: #025add;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+  .Items-5 .container .text h2 {
+    font-size: 28px;
+  }
+
+  .Items-5 .container .text p {
+    font-size: 16px;
+  }
+
+  .Items-5 .container .cards-5 {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h3 {
+    font-size: 17px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h4 {
+    font-size: 13px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Items-5 .container .text h2 {
+    font-size: 24px;
+  }
+
+  .Items-5 .container .text p {
+    font-size: 14px;
+  }
+
+  .Items-5 .container .cards-5 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 {
+    width: 100%;
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 .img-3 {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h3 {
+    font-size: 16px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h4 {
+    font-size: 12px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 .start {
+    font-size: 16px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 p {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .Items-5 .container .text h2 {
+    font-size: 20px;
+  }
+
+  .Items-5 .container .text p {
+    font-size: 13px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 {
+    padding: 12px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h3 {
+    font-size: 15px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 h4 {
+    font-size: 11px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 .start {
+    font-size: 15px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 p {
+    font-size: 13px;
+  }
+
+  .Items-5 .container .cards-5 .cardItems-6 p i {
+    font-size: 20px;
+  }
+}

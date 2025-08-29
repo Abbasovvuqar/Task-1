@@ -1,0 +1,135 @@
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1000; 
+    position: sticky;
+}
+
+header .icon{
+   max-width: 174px;
+   max-height: 40px;
+   position: relative;
+   top: 30px;
+   left: 13%;
+}
+
+
+header .nav-bar .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    position: relative;
+    right: 10%;
+}
+
+header .nav-bar .nav-list li a{
+    font-size: 16px;
+    color: #3a3a3a;
+}
+
+ header .nav-bar .nav-list .btn a  {
+    border-radius: 50px;
+    display: block;
+    background-color: #025add;
+    width: 129px;
+    height: 49px;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 2.9;
+    font-size: 17px;
+}
+
+
+header .nav-bar .nav-list .btn a:hover{
+    background-color: #0c6de0;
+    color: white;
+}
+ 
+.nav-bar .nav-list li a:hover{
+    color: #025add;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    background-color: white;
+}
+
+.dropdown-list  a {
+    display: block;
+    padding: 10px 15px;
+    color: #3a3a3a
+}
+
+.nav-list li:hover > .dropdown-menu {
+    display: block;
+}
+.bars{
+    display: none;
+    font-size: 27px;
+    color: #333;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 2100;
+}
+
+ 
+@media (max-width: 768px) {
+  .bars {
+    display: block;
+  } 
+
+    header {
+    height: 70px; 
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  header .nav-bar .nav-list {
+    display: none; 
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    background-color: #fff;
+    width: 220px;
+    height: calc(100vh - 70px);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    z-index: 2000;
+  }
+
+  header .icon {
+    max-width: 120px;
+    max-height: 28px;
+    top: 4px;
+    left: 8%;
+    position: relative;
+  }
+
+  header .nav-bar .nav-list .btn a {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    bottom: 0;
+  }
+
+  header .nav-bar.active .nav-list {
+    display: flex;
+  }
+}

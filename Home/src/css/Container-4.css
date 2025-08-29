@@ -1,0 +1,326 @@
+ .Items-11 .container {
+    max-width: 1500px;
+    padding: 0 20px;
+    background-color: #f8f8f8;
+}
+
+.Items-11 .container .text {
+    padding: 20px;
+    text-align: center;
+}
+
+.Items-11 .container .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #025add;
+}
+
+.Items-11 .container .text p {
+    font-size: 16px;
+    color: red;
+}
+
+.Items-11 .card-10 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.Items-11 .card-10 .cardItems-11 {
+  width: 356px;
+  height: 441px;
+  background-color: #fff;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.Items-11 .card-10  .cardItems-11 .card-img-1:hover {
+  transform: scale(1.09);
+}
+
+.Items-11 .card-10 .cardItems-11 .card-img-1 {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+}
+
+.Items-11 .card-10 .cardItems-11 .card-img-1  img {
+  object-fit: cover;
+}
+
+.Items-11 .card-10 .cardItems-11 h2 {
+  font-size: 22px;
+  color: #025add;
+  margin: 15px 20px 5px 20px;
+  font-weight: 500;
+}
+
+.Items-11 .card-10 .cardItems-11 p {
+  font-size: 16px;
+  color: #333;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.Items-11 .card-10 .cardItems-11 h4 {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  margin: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  .Items-11 .container {
+    padding: 0 15px;
+  }
+
+  .Items-11 .card-10 .cardItems-11 {
+    width: 300px;
+  }
+
+  .Items-11 .card-10 {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Items-11 .text h2 {
+    font-size: 26px;
+  }
+
+  .Items-11 .text p {
+    font-size: 14px;
+  }
+
+  .Items-11 .card-10 .cardItems-11 {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .Items-11 .card-10 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .Items-11 .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Items-11 .text h2 {
+    font-size: 22px;
+  }
+
+  .Items-11 .text p {
+    font-size: 13px;
+  }
+
+  .Items-11 .card-10 .cardItems-11 h2 {
+    font-size: 18px;
+  }
+
+  .Items-11 .card-10 .cardItems-11 p,
+  .Items-11 .card-10 .cardItems-11 h4 {
+    font-size: 14px;
+  }
+
+  .Items-11 .card-10 .cardItems-11 {
+    height: auto;
+  }
+}
+
+/*=========================================================================*/
+.Items-12 .container{
+  max-width: 1400px;
+  margin: 20px;
+  padding: 0 20px;
+}
+
+
+.Items-12 .container .text{
+  align-items: center;
+  text-align: center;
+}
+
+
+.Items-12 .container .text h2{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: #025add;
+}
+
+.Items-12 .container .text p{
+   font-size: 16px;
+   color: red;
+} 
+
+.Items-12 .container  .input-1{
+  display: flex;
+  flex-direction: row;
+   gap: 50px;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 20px;
+   flex-wrap: wrap;
+}
+
+.input-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-5 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-5 input,
+.input-6 input,
+.input-7 textarea {
+  width: 100%;
+  max-width: 356px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  background-color: #f8f8f8;
+  font-size: 15px;
+}
+
+.input-6 input,
+.input-7 textarea {
+  max-width: 736px;
+}
+
+textarea {
+  height: 193px;
+}
+
+.Items-12 .container  .input-3 .input-5 input{
+  padding: 10px 20px;
+  width: 356px;
+  height: 52px;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+  background-color: #f8f8f8;
+}
+
+
+.Items-12 .container  .input-1 .input-2 .input-4 {
+  padding: 10px;
+  margin: 10px;
+}
+
+.Items-12 .container  .input-1 .input-2 .input-4 h5{
+  font-size: 18px;
+  margin: 0 0 7px;
+  font-weight: 400;
+  color: #333;
+}
+
+
+.Items-12 .container  .input-1 .input-2 .input-4 p {
+  font-size: 16px;
+  color: #333;
+}
+ 
+.Items-12 .container  .input-1  .btn-4 .bt-2{
+  padding: 14px 40px;
+  border-radius: 50px;
+  width: 201px;
+  height: 51px;
+  border: none;
+  background-color: #025add;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 1200px) {
+  .Items-12 .container {
+    padding: 0 15px;
+  }
+
+  .input-6 input,
+  .input-7 textarea {
+    max-width: 600px;
+  }
+
+  .input-5 input {
+    max-width: 320px;
+  }
+
+  .Items-12 .container .text h2 {
+    font-size: 28px;
+  }
+
+  .Items-12 .container .text p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Items-12 .container {
+    padding: 0 10px;
+  }
+
+  .Items-12 .container .input-1 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  .input-5 {
+    flex-direction: column;
+  }
+
+  .input-5 input,
+  .input-6 input,
+  .input-7 textarea {
+    max-width: 100%;
+  }
+
+  .Items-12 .container .text h2 {
+    font-size: 24px;
+  }
+
+  .Items-12 .container .text p {
+    font-size: 14px;
+  }
+
+  .Items-12 .container .input-1 .btn-4 .bt-2 {
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .Items-12 .container .text h2 {
+    font-size: 20px;
+  }
+
+  .Items-12 .container .text p {
+    font-size: 13px;
+  }
+
+  .Items-12 .container .input-1 .btn-4 .bt-2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+
